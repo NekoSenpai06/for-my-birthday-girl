@@ -78,12 +78,12 @@ footer p {
     
     .logo p {
         font-family: arial;
-        font-size: 7px;
+        font-size: 8px;
         color: #111;
     }
     
     .logo img {
-        width: 200px;
+        width: 210px;
     }
     
     .container {
@@ -95,7 +95,7 @@ footer p {
     }
     
     .container p {
-        font-size: 10px;
+        font-size: 12px;
         font-family: verdana;
         width: 80%;
         margin-right: auto;
@@ -126,7 +126,12 @@ footer p {
     
     footer p {
         font-family: monospace;
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    .music {
+        text-align: center;
+        padding: 5px 0px;
     }
 }
 
@@ -143,12 +148,12 @@ footer p {
     
     .logo p {
         font-family: arial;
-        font-size: 7px;
+        font-size: 8px;
         color: #111;
     }
     
     .logo img {
-        width: 200px;
+        width: 210px;
     }
     
     .container {
@@ -160,7 +165,7 @@ footer p {
     }
     
     .container p {
-        font-size: 10px;
+        font-size: 12px;
         font-family: verdana;
         width: 80%;
         margin-right: auto;
@@ -191,7 +196,12 @@ footer p {
     
     footer p {
         font-family: monospace;
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    .music {
+        text-align: center;
+        padding: 5px 0px;
     }
 }
 
@@ -208,7 +218,7 @@ footer p {
     
     .logo p {
         font-family: arial;
-        font-size: 7px;
+        font-size: 8px;
         color: #111;
     }
     
@@ -225,7 +235,7 @@ footer p {
     }
     
     .container p {
-        font-size: 10px;
+        font-size: 12px;
         font-family: verdana;
         width: 80%;
         margin-right: auto;
@@ -256,7 +266,12 @@ footer p {
     
     footer p {
         font-family: monospace;
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    .music {
+        text-align: center;
+        padding: 5px 0px;
     }
 }
 
@@ -273,7 +288,7 @@ footer p {
     
     .logo p {
         font-family: arial;
-        font-size: 7px;
+        font-size: 9px;
         color: #111;
     }
     
@@ -290,7 +305,7 @@ footer p {
     }
     
     .container p {
-        font-size: 10px;
+        font-size: 12px;
         font-family: verdana;
         width: 80%;
         margin-right: auto;
@@ -302,7 +317,6 @@ footer p {
         width: 100px;
         border: 3px solid rgb(255, 138, 187);
         border-radius: 5px;
-
     }
     
     .pics {
@@ -321,7 +335,12 @@ footer p {
     
     footer p {
         font-family: monospace;
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    .music {
+        text-align: center;
+        padding: 5px 0px;
     }
 }
 
@@ -338,12 +357,12 @@ footer p {
     
     .logo p {
         font-family: arial;
-        font-size: 8px;
+        font-size: 10px;
         color: #111;
     }
     
     .logo img {
-        width: 250px;
+        width: 260px;
     }
     
     .container {
@@ -355,7 +374,7 @@ footer p {
     }
     
     .container p {
-        font-size: 10px;
+        font-size: 12px;
         font-family: verdana;
         width: 80%;
         margin-right: auto;
@@ -367,7 +386,6 @@ footer p {
         width: 130px;
         border: 3px solid rgb(255, 138, 187);
         border-radius: 5px;
-
     }
     
     .pics {
@@ -386,7 +404,12 @@ footer p {
     
     footer p {
         font-family: monospace;
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    .music {
+        text-align: center;
+        padding: 5px 0px;
     }
 }
 
@@ -403,7 +426,7 @@ footer p {
     
     .logo p {
         font-family: arial;
-        font-size: 8px;
+        font-size: 10px;
         color: #111;
     }
     
@@ -420,7 +443,7 @@ footer p {
     }
     
     .container p {
-        font-size: 10px;
+        font-size: 12px;
         font-family: verdana;
         width: 80%;
         margin-right: auto;
@@ -432,7 +455,6 @@ footer p {
         width: 120px;
         border: 3px solid rgb(255, 138, 187);
         border-radius: 5px;
-
     }
     
     .pics {
@@ -451,6 +473,11 @@ footer p {
     
     footer p {
         font-family: monospace;
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    .music {
+        text-align: center;
+        padding: 5px 0px;
     }
 }
