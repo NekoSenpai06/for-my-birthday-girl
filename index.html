@@ -2,48 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/icon.png">
-    <link rel="stylesheet" href="style.css">
-    <title>HAPPY BIRTHDAY!</title>
+    <title>Virtual Birthday Gift</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: verdana;
+        }
+        
+        body {
+            background-color: #FAE5D7;
+        }
+
+        .container {
+            width: 40%;
+            border: 1.5px solid black;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+            border-radius: 5px;
+            padding: 10px 0px;
+        }
+
+        .container .content {
+            border: 1px solid black;
+            width: 67%;
+            font-size: 30px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(20, 20, 20);
+        }
+
+        .container .btns button {
+            height: 70px;
+            width: 70px;
+            font-size: 30px;
+            margin-right: 5px;
+            margin-left: 5px;
+            margin-top: 10px;
+            background-color: rgb(20, 20, 20);
+            color: white;
+            font-family: tahoma;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .container .inp {
+            padding: 10px 0px;
+        }
+
+        .container .inp input {
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 50%;
+            font-family: tahoma;
+            padding: 10px 10px;
+            font-size: 20px;
+            color: black;
+        }
+
+        .enterBtn {
+            padding: 0px 80px;
+        }
+    </style>
 </head>
 <body>
-    <div class="logo">
-        <img src="images/logo.png" alt="HAPPY BIRTHDAY!">
-        <p>June 18, 2024</p>
-    </div>
     <div class="container">
-        <p>Hi gabi! Happy 17th birthday to you! yeyyy! I know we're not together today, and it is sad to think that I won't be
-        able to come. But today is a special day hindi dapat tayo sad okay? Even though I'm not with you to celebrate your
-         birthday, I want you to remember that I will always be here for you, hindi hadlang ang distanya natin sa isa't-isa para
-        sabihin na malayo ako sayo, I am here, inside you're heart, unconditionally loving you forever, because you are so
-        special to me, really. You bring so much joy and love into my life, and I can't imagine my life without you. Thank you
-        for always being there for me, for your kindness, your laughter, and your love. I feel so blessed to have you by my
-        side. I am hoping na sana next year kasama mo na ako, we'll going to celebrate your birthday na together! I am so proud
-        and happy for you, love. With all my heart I wish you have a wonderful day be filled with joy and happiness, may your
-        birthday be as special as you are. I love you.</p>
+        <div class="content">
+            <p>Enter your Birthday</p>
+        </div>
+        <div class="inp">
+            <input type="text" placeholder="Password" disabled>
+        </div>
+        <div class="btns">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button><br>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button><br>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button><br>
+            <button>/</button>
+            <button>0</button>
+            <button>-</button><br>
+            <button>C</button>
+            <button class="enterBtn">Enter</button>
+        </div>
     </div>
-    <div class="pics">
-        <img src="images/pics/1.jpg">
-        <img src="images/pics/2.jpg">
-        <img src="images/pics/3.jpg">
-        <img src="images/pics/4.jpg">
-        <img src="images/pics/5.jpg">
-        <img src="images/pics/6.jpg">
-        <img src="images/pics/7.jpg">
-        <img src="images/pics/8.jpg">
-        <img src="images/pics/9.jpg">
-        <img src="images/pics/10.jpg">
-        <img src="images/pics/11.jpg">
-        <img src="images/pics/12.jpg">
-        <img src="images/pics/13.jpg">
-    </div>
-    <div class="music">
-        <audio src="wave to earth - Light.mp3" controls autoplay></audio>
-    </div>
-    <footer>
-        <p style="margin-bottom:7px">For through wisdom your days will be many, and years will be added to your life.</p>
-        <p>Proverbs 9:11</p>
-    </footer>
 </body>
+<script src="script.js"></script>
 </html>
+<!-- 
+
+ALL POSSIBLE PASSWORD KEYS
+
+8-15-2000
+8/15/2000
+08-15-2000
+08/15/2000
+8-15-00
+08-15-00
+8/15/00
+08/15/00
+
+ -->
